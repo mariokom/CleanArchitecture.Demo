@@ -1,0 +1,83 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Unic.Demo", "src\Unic.Demo\Unic.Demo.csproj", "{ED7BC641-D411-4A19-9A91-5324B4E87195}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{908B065A-CF96-411B-86EE-DF68D3DBDB7B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{82D54227-B6E8-4825-811A-6DFA7B7A6E4D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{B6C92395-274C-4164-BD0C-EB8BB74B5F59}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{AAF6CBB2-66A9-47B6-AC20-17A16AF71AE5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastrucutre", "Infrastrucutre", "{F988CCF7-D9B1-41C3-95FD-7B34B3A6C1B1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Unic.Domain.Entities", "src\Domain\Unic.Domain.Entities\Unic.Domain.Entities.csproj", "{CA58A9BF-2AAF-41F1-953B-BC8A3EA7B1CF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Unic.Infrastructure.Data", "src\Infrastructure\Unic.Infrastructure.Data\Unic.Infrastructure.Data.csproj", "{B6392D04-CDB1-4439-A490-CAE652DE75DB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Unic.Core.UseCases", "src\Core\Unic.Core.UseCases\Unic.Core.UseCases.csproj", "{5742D5F1-4463-4704-9955-7484C8F96461}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Unic.Core.Shared", "src\Core\Unic.Core.Shared\Unic.Core.Shared.csproj", "{C176004B-FEA3-4B87-A781-77A6D4AA888C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unic.Core.TokenAuthorization", "src\Core\Unic.Core.TokenAuthorization\Unic.Core.TokenAuthorization.csproj", "{DD792087-1237-459A-B84B-1B8D900CCAAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unic.Core.Cryptography", "src\Core\Unic.Core.Cryptography\Unic.Core.Cryptography.csproj", "{2E6A3FAE-FC79-40C8-A50A-3F78C17B3874}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ED7BC641-D411-4A19-9A91-5324B4E87195}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED7BC641-D411-4A19-9A91-5324B4E87195}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED7BC641-D411-4A19-9A91-5324B4E87195}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED7BC641-D411-4A19-9A91-5324B4E87195}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA58A9BF-2AAF-41F1-953B-BC8A3EA7B1CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA58A9BF-2AAF-41F1-953B-BC8A3EA7B1CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA58A9BF-2AAF-41F1-953B-BC8A3EA7B1CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA58A9BF-2AAF-41F1-953B-BC8A3EA7B1CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6392D04-CDB1-4439-A490-CAE652DE75DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6392D04-CDB1-4439-A490-CAE652DE75DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6392D04-CDB1-4439-A490-CAE652DE75DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6392D04-CDB1-4439-A490-CAE652DE75DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5742D5F1-4463-4704-9955-7484C8F96461}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5742D5F1-4463-4704-9955-7484C8F96461}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5742D5F1-4463-4704-9955-7484C8F96461}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5742D5F1-4463-4704-9955-7484C8F96461}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C176004B-FEA3-4B87-A781-77A6D4AA888C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C176004B-FEA3-4B87-A781-77A6D4AA888C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C176004B-FEA3-4B87-A781-77A6D4AA888C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C176004B-FEA3-4B87-A781-77A6D4AA888C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD792087-1237-459A-B84B-1B8D900CCAAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD792087-1237-459A-B84B-1B8D900CCAAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD792087-1237-459A-B84B-1B8D900CCAAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD792087-1237-459A-B84B-1B8D900CCAAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E6A3FAE-FC79-40C8-A50A-3F78C17B3874}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E6A3FAE-FC79-40C8-A50A-3F78C17B3874}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E6A3FAE-FC79-40C8-A50A-3F78C17B3874}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E6A3FAE-FC79-40C8-A50A-3F78C17B3874}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{ED7BC641-D411-4A19-9A91-5324B4E87195} = {908B065A-CF96-411B-86EE-DF68D3DBDB7B}
+		{B6C92395-274C-4164-BD0C-EB8BB74B5F59} = {908B065A-CF96-411B-86EE-DF68D3DBDB7B}
+		{AAF6CBB2-66A9-47B6-AC20-17A16AF71AE5} = {908B065A-CF96-411B-86EE-DF68D3DBDB7B}
+		{F988CCF7-D9B1-41C3-95FD-7B34B3A6C1B1} = {908B065A-CF96-411B-86EE-DF68D3DBDB7B}
+		{CA58A9BF-2AAF-41F1-953B-BC8A3EA7B1CF} = {AAF6CBB2-66A9-47B6-AC20-17A16AF71AE5}
+		{B6392D04-CDB1-4439-A490-CAE652DE75DB} = {F988CCF7-D9B1-41C3-95FD-7B34B3A6C1B1}
+		{5742D5F1-4463-4704-9955-7484C8F96461} = {B6C92395-274C-4164-BD0C-EB8BB74B5F59}
+		{C176004B-FEA3-4B87-A781-77A6D4AA888C} = {B6C92395-274C-4164-BD0C-EB8BB74B5F59}
+		{DD792087-1237-459A-B84B-1B8D900CCAAC} = {B6C92395-274C-4164-BD0C-EB8BB74B5F59}
+		{2E6A3FAE-FC79-40C8-A50A-3F78C17B3874} = {B6C92395-274C-4164-BD0C-EB8BB74B5F59}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {495EFE0C-17E2-45A8-8168-8D6402E49CA3}
+	EndGlobalSection
+EndGlobal

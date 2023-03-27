@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.15" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.15">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.13" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Core\Unic.Core.Cryptography\Unic.Core.Cryptography.csproj" />
+    <ProjectReference Include="..\Core\Unic.Core.TokenAuthorization\Unic.Core.TokenAuthorization.csproj" />
+    <ProjectReference Include="..\Core\Unic.Core.UseCases\Unic.Core.UseCases.csproj" />
+    <ProjectReference Include="..\Infrastructure\Unic.Infrastructure.Data\Unic.Infrastructure.Data.csproj" />
+  </ItemGroup>
+
+</Project>
