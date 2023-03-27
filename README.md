@@ -16,7 +16,7 @@
 <br/>
 
 ## Implementation details
-### 1. Solution structure: Clean Arcitecture
+### 1. Solution structure: Clean Architecture
     - Domain layer
     - Core layer
     - Infrastructure layer
@@ -31,7 +31,7 @@
     - Automatic migration using EF migration feature
     - Datbase Schema:
 ### 5. Authentication/authorization
-    - Implemented a dummy JWT authentication mechanism (did not digitally signed the token)
+    - Implemented a dummy JWT authentication mechanism (did not digitally sign the token)
     - Users are preloaded using the 'seeding' endpoint.
     - Using the authorization endpoint a user can generate a JWT token.
     - The token should be used in the HTTP request to authenticate and authorize the request.
