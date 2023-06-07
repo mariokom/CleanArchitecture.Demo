@@ -1,9 +1,9 @@
-# Unic.Demo
+# CAD.Demo
 
 <br>
 
 ## How to use
-### 1. Run the Unic.Demo project
+### 1. Run the CAD.Demo project
 ### 2. Go to the swagger UI
 ### 3. Seed the database using the migrations controller
 ### 4. Generate an JWT using the authentication controller
