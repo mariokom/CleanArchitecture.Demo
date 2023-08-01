@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using CAD.Core.Shared.Models;
 using CAD.Core.Shared.Queries;
 using CAD.Demo.Utils;
+using System.Drawing.Text;
 
 namespace CAD.Demo.Controllers
 {
@@ -42,7 +43,10 @@ namespace CAD.Demo.Controllers
             );
         }
 
-        // feature 11
+        public void Feature11_1()
+        {
+
+        }
 
         [HttpGet("courses/all")]
         [AuthorizeUser]
@@ -60,10 +64,9 @@ namespace CAD.Demo.Controllers
 
 
 
+        public void Feature11_2()
+        {
 
-        // feature 11
-
-
-
+        }
     }
 }
