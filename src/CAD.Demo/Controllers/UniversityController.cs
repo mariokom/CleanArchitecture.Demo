@@ -42,6 +42,8 @@ namespace CAD.Demo.Controllers
             );
         }
 
+        // feature 11
+
         [HttpGet("courses/all")]
         [AuthorizeUser]
         public async Task<IActionResult> GetAllCourses([FromQuery] PaginationParams paginationParams)
@@ -55,5 +57,13 @@ namespace CAD.Demo.Controllers
 
 
         //my feature comment
+
+
+
+
+        // feature 11
+
+
+
     }
 }
