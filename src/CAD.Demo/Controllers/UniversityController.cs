@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using CAD.Core.Shared.Models;
 using CAD.Core.Shared.Queries;
 using CAD.Demo.Utils;
+using System.Drawing.Text;
 
 namespace CAD.Demo.Controllers
 {
@@ -42,6 +43,11 @@ namespace CAD.Demo.Controllers
             );
         }
 
+        public void Feature11_1()
+        {
+
+        }
+
         [HttpGet("courses/all")]
         [AuthorizeUser]
         public async Task<IActionResult> GetAllCourses([FromQuery] PaginationParams paginationParams)
@@ -56,5 +62,10 @@ namespace CAD.Demo.Controllers
 
         //my feature comment
         //featureD1
+
+        public void Feature11_2()
+        {
+
+        }
     }
 }
