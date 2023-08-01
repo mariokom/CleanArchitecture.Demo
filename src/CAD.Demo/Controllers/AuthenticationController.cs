@@ -23,5 +23,10 @@ namespace CAD.Demo.Controllers
 
             return Ok(token);
         }
+
+        public void Feature21()
+        {
+
+        }
     }
 }
