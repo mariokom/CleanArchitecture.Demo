@@ -24,12 +24,12 @@ namespace CAD.Demo.Controllers
             return Ok(token);
         }
 
-        public void Feature22(int enhancement2)
+        public void Feature22(string enhancement1, int enhancement2)
         {
 
         }
 
-        public void Feature21(int enhancement2)
+        public void Feature21(string enhancement1, int enhancement2)
         {
 
         }
