@@ -5,8 +5,6 @@ namespace CAD.Core.UseCases
 {
     public static class Extensions
     {
-        // string enhancement1
-
         public static IServiceCollection AddUseCases(this IServiceCollection services)
         {
             services.AddMediatR( x =>

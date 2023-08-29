@@ -58,10 +58,5 @@ namespace CAD.Demo.Controllers
                 )
             );
         }
-
-        public void Enhancement1()
-        {
-
-        }
     }
 }
