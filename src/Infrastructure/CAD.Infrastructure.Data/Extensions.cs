@@ -8,15 +8,12 @@ namespace CAD.Infrastructure.Data
 {
     public static class Extensions
     {
-        public static IServiceCollection AddDbContext(this IServiceCollection services, IConfiguration configuration)
+        public static IServiceCollection AddPersistentStorage(this IServiceCollection services, IConfiguration configuration)
         {
             var connectionString = configuration.GetConnectionString("DefaultConnection");
 
-            services.AddDbContext<AppDbContext>(options =>
-                options.UseSqlServer(connectionString));
-
-            services.AddScoped<IUniversityRepository, UniversityRepository>();
-            services.AddScoped<IAuthenticationRepository, AuthenticationRepository>();
+            services.AddDbContext<CompanyDbContext>(options => options.UseSqlServer(connectionString));
+            services.AddScoped<ICompanyRepository, CompanyRepository>();
 
             return services;
         }
@@ -25,7 +22,7 @@ namespace CAD.Infrastructure.Data
         {
             using (var scope = serviceProvider.CreateScope())
             {
-                AppDbContext dbContext = scope.ServiceProvider.GetService<AppDbContext>();
+                CompanyDbContext dbContext = scope.ServiceProvider.GetService<CompanyDbContext>();
                 dbContext.Database.Migrate();
             }
         }

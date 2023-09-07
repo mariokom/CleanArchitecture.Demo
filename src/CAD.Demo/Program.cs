@@ -15,7 +15,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers().AddJsonOptions(options => {
     options.JsonSerializerOptions.IgnoreNullValues = true;
 });
-builder.Services.AddDbContext(builder.Configuration);
+builder.Services.AddPersistentStorage(builder.Configuration);
 builder.Services.AddUseCases();
 builder.Services.AddTokenAuthorization();
 builder.Services.AddHashing();

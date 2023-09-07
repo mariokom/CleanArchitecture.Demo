@@ -7,13 +7,14 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="MediatR" Version="12.0.1" />
+    <ProjectReference Include="..\..\Domain\CAD.Domain.Entities\CAD.Domain.Entities.csproj" />
+    <ProjectReference Include="..\CAD.Core.ModelMapping\CAD.Core.ModelMapping.csproj" />
+    <ProjectReference Include="..\CAD.Core.Shared\CAD.Core.Shared.csproj" />
+    <ProjectReference Include="..\CAD.Core.TokenAuthorization\CAD.Core.TokenAuthorization.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Domain\CAD.Domain.Entities\CAD.Domain.Entities.csproj" />
-    <ProjectReference Include="..\CAD.Core.Shared\CAD.Core.Shared.csproj" />
-    <ProjectReference Include="..\CAD.Core.TokenAuthorization\CAD.Core.TokenAuthorization.csproj" />
+    <Folder Include="Commands\" />
   </ItemGroup>
 
 </Project>

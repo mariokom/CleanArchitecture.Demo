@@ -1,4 +1,5 @@
-﻿using Microsoft.Extensions.DependencyInjection;
+﻿using CAD.Core.ModelMapping;
+using Microsoft.Extensions.DependencyInjection;
 using System.Reflection;
 
 namespace CAD.Core.UseCases
@@ -10,6 +11,7 @@ namespace CAD.Core.UseCases
             services.AddMediatR( x =>
                 x.RegisterServicesFromAssembly(Assembly.GetExecutingAssembly())
             );
+            services.AddModelMapping();
             return services;
         }
     }

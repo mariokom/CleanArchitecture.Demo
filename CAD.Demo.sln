@@ -23,9 +23,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CAD.Core.UseCases", "src\Co
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CAD.Core.Shared", "src\Core\CAD.Core.Shared\CAD.Core.Shared.csproj", "{C176004B-FEA3-4B87-A781-77A6D4AA888C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CAD.Core.TokenAuthorization", "src\Core\CAD.Core.TokenAuthorization\CAD.Core.TokenAuthorization.csproj", "{DD792087-1237-459A-B84B-1B8D900CCAAC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CAD.Core.TokenAuthorization", "src\Core\CAD.Core.TokenAuthorization\CAD.Core.TokenAuthorization.csproj", "{DD792087-1237-459A-B84B-1B8D900CCAAC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CAD.Core.Cryptography", "src\Core\CAD.Core.Cryptography\CAD.Core.Cryptography.csproj", "{2E6A3FAE-FC79-40C8-A50A-3F78C17B3874}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CAD.Core.Cryptography", "src\Core\CAD.Core.Cryptography\CAD.Core.Cryptography.csproj", "{2E6A3FAE-FC79-40C8-A50A-3F78C17B3874}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CAD.Core.ModelMapping", "src\Core\CAD.Core.ModelMapping\CAD.Core.ModelMapping.csproj", "{749AD7B7-C9F1-4C80-842C-08222F0B5166}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -61,6 +63,10 @@ Global
 		{2E6A3FAE-FC79-40C8-A50A-3F78C17B3874}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E6A3FAE-FC79-40C8-A50A-3F78C17B3874}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E6A3FAE-FC79-40C8-A50A-3F78C17B3874}.Release|Any CPU.Build.0 = Release|Any CPU
+		{749AD7B7-C9F1-4C80-842C-08222F0B5166}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{749AD7B7-C9F1-4C80-842C-08222F0B5166}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{749AD7B7-C9F1-4C80-842C-08222F0B5166}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{749AD7B7-C9F1-4C80-842C-08222F0B5166}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -76,6 +82,7 @@ Global
 		{C176004B-FEA3-4B87-A781-77A6D4AA888C} = {B6C92395-274C-4164-BD0C-EB8BB74B5F59}
 		{DD792087-1237-459A-B84B-1B8D900CCAAC} = {B6C92395-274C-4164-BD0C-EB8BB74B5F59}
 		{2E6A3FAE-FC79-40C8-A50A-3F78C17B3874} = {B6C92395-274C-4164-BD0C-EB8BB74B5F59}
+		{749AD7B7-C9F1-4C80-842C-08222F0B5166} = {B6C92395-274C-4164-BD0C-EB8BB74B5F59}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {495EFE0C-17E2-45A8-8168-8D6402E49CA3}
